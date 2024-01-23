@@ -1,0 +1,20 @@
+<div id="upload-popup" class="upload-popup">
+  <div class="upload-popup-content">
+    <span id="close-popup" class="close-popup">&times;</span>
+    <form action="/LatVis/upload" method="POST" enctype="multipart/form-data">
+      <input
+        type="file"
+        id="file-input"
+        name="file"
+        class="form-control-file"
+      />
+      <div id="file-info"></div>
+
+      <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+  </div>
+</div>
+<script
+  type="module"
+  src="{{ url_for('static', filename='index.js') }}"
+></script>

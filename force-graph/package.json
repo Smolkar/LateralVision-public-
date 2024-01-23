@@ -1,0 +1,52 @@
+{
+  "name": "forcegraph",
+  "version": "0.1.0",
+  "description": "LateralVision interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "start": "webpack serve ",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "neo4j",
+    "d3.js",
+    "graph visualization",
+    "force graph"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/smolkar/force-graph.git"
+  },
+  "author": {
+    "name": "Dimo Popov",
+    "url": "https://github.com/Smolkar"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smolkar/force-graph/issues"
+  },
+  "homepage": "https://github.com/smolkar/force-graph#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "eslint": "^8.37.0",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bower": "^1.8.14",
+    "d3": "5.15.0",
+    "d3-context-menu": "^2.1.0",
+    "d3-force-sampled": "^1.0.1",
+    "highcharts": "^10.3.3",
+    "mkdirp": "^2.1.6",
+    "webpack": "^5.77.0"
+  }
+}

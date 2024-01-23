@@ -1,0 +1,12 @@
+changefinder==0.3
+Flask==2.2.3
+Flask_Cors==3.0.10
+flask_restx==1.1.0
+hmmlearn==0.2.8
+joblib==1.2.0
+neo4j==5.7.0
+numpy==1.24.2
+pandas==1.5.3
+py2neo==2021.2.3
+setuptools==67.6.1
+Werkzeug==2.2.3

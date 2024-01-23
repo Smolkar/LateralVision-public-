@@ -1,0 +1,74 @@
+/* Set a background color and font for the body */
+body {
+
+  padding: 100px;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply a box-sizing reset to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Set some basic styles for all panels */
+.panel {
+  border-radius: 6px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin:4px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the file panel */
+.file-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto; /* Add a scrollbar when content overflows */
+}
+
+.file-item {
+  margin: 10px ;
+  cursor: pointer; /* Add a cursor pointer to the file items */
+}
+
+.file-item:hover {
+  background-color: #f8f8f8; /* Change the background color of file items on hover */
+}
+
+/* Style the info panel */
+.file-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.info-item {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info-item .label {
+  font-weight: bold;
+  width: 10px;
+}
+
+.info-item .value {
+  flex: 1;
+}
+
+/* Set up a wrapper for the file list and file info panels */
+.app-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 150px;
+}
